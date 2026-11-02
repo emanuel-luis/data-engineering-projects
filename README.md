@@ -1,7 +1,7 @@
 # Data engineering projects
 
 An index of my public data-engineering repositories, all built on open or synthetic data. The
-badges show each project's CI on `main`.
+badges show each project's CI on `main`. Web applications are listed only in the profile.
 
 The [profile README](https://github.com/emanuel-luis) is the canonical overview, with more detail
 per project, the publications and the open-source contributions. This page only lists the
@@ -30,6 +30,7 @@ update the profile first, then this list.
 | --- | --- | --- |
 | [de-lakehouse-pipeline](https://github.com/emanuel-luis/de-lakehouse-pipeline) | Polars ingestion and dbt marts on DuckDB, run by Airflow 3 through Astronomer Cosmos. [dbt docs and Elementary report](https://emanuel-luis.github.io/de-lakehouse-pipeline/). | [![CI](https://github.com/emanuel-luis/de-lakehouse-pipeline/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/de-lakehouse-pipeline/actions/workflows/ci.yml) |
 | [vaccine-warehouse](https://github.com/emanuel-luis/vaccine-warehouse) | Kimball-style vaccination warehouse built with dbt, plus a live speed layer (Spring Boot API) and a React dashboard. | [![CI](https://github.com/emanuel-luis/vaccine-warehouse/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/vaccine-warehouse/actions/workflows/ci.yml) |
+| [retail-pricing-reverse-etl](https://github.com/emanuel-luis/retail-pricing-reverse-etl) | Work in progress. ELT plus reverse ETL for retail pricing: NiFi extracts to Parquet, ClickHouse and dbt compute prices, and only the changed rows are written back to the OLTP. | not set up yet |
 
 ## ML pipelines
 
@@ -38,11 +39,11 @@ update the profile first, then this list.
 | [covid19-xray-pipeline](https://github.com/emanuel-luis/covid19-xray-pipeline) | DVC pipeline for COVID-19 chest X-ray classification with leakage-safe splits, handcrafted features and a ResNet-18. | [![CI](https://github.com/emanuel-luis/covid19-xray-pipeline/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/covid19-xray-pipeline/actions/workflows/ci.yml) |
 | [necrohub](https://github.com/emanuel-luis/necrohub) | Synthetic pt-BR necropsy reports: generation, de-identification, fine-tuned encoders and pgvector retrieval. | [![CI](https://github.com/emanuel-luis/necrohub/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/necrohub/actions/workflows/ci.yml) |
 
-## Applications
+## Frameworks
 
 | Project | What it does | CI |
 | --- | --- | --- |
-| [bank-credit](https://github.com/emanuel-luis/bank-credit) | Credit-request workflow with an append-only event log, SLA analytics in SQL views and contract-checked exports. | [![CI](https://github.com/emanuel-luis/bank-credit/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/bank-credit/actions/workflows/ci.yml) |
+| [pipeloom](https://github.com/emanuel-luis/pipeloom) | In design. Declarative, engine-agnostic data pipelines in YAML, rendered to Databricks Jobs or Airflow. [Docs](https://emanuel-luis.github.io/pipeloom/), [PyPI](https://pypi.org/project/pipeloom/) (0.0.2 reserves the name). | [![CI](https://github.com/emanuel-luis/pipeloom/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/pipeloom/actions/workflows/ci.yml) |
 
 ## License
 
