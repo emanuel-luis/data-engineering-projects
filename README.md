@@ -15,7 +15,7 @@ update the profile first, then this list.
 | [books-scraping](https://github.com/emanuel-luis/books-scraping) | Re-runnable crawl of the Books to Scrape sandbox into raw HTML, validated Parquet and a DuckDB serving layer. | [![CI](https://github.com/emanuel-luis/books-scraping/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/books-scraping/actions/workflows/ci.yml) |
 | [ecommerce-scraping](https://github.com/emanuel-luis/ecommerce-scraping) | Scrapy crawler for three Brazilian fashion stores that reads product JSON-LD into Parquet and DuckDB views. | [![CI](https://github.com/emanuel-luis/ecommerce-scraping/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/ecommerce-scraping/actions/workflows/ci.yml) |
 | [ingestion-toolkit](https://github.com/emanuel-luis/ingestion-toolkit) | CLI that turns validated ingestion configs (full scan, incremental watermark, CDC) into Airflow 3 DAGs. | [![CI](https://github.com/emanuel-luis/ingestion-toolkit/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/ingestion-toolkit/actions/workflows/ci.yml) |
-| [mssql-cdc-pyspark](https://github.com/emanuel-luis/mssql-cdc-pyspark) | PySpark streaming source for SQL Server CDC with a `finalized_until` completeness signal. [Docs](https://emanuel-luis.github.io/mssql-cdc-pyspark/), [PyPI](https://pypi.org/project/mssql-cdc-pyspark/). | [![CI](https://github.com/emanuel-luis/mssql-cdc-pyspark/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/mssql-cdc-pyspark/actions/workflows/ci.yml) |
+| [mssql-cdc-pyspark](https://github.com/emanuel-luis/mssql-cdc-pyspark) | PySpark streaming source for SQL Server CDC with a `finalized_until` completeness signal. Stable since 1.0. [Docs](https://emanuel-luis.github.io/mssql-cdc-pyspark/), [PyPI](https://pypi.org/project/mssql-cdc-pyspark/). | [![CI](https://github.com/emanuel-luis/mssql-cdc-pyspark/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/mssql-cdc-pyspark/actions/workflows/ci.yml) |
 
 ## Streaming and CDC
 
@@ -43,7 +43,7 @@ update the profile first, then this list.
 
 | Project | What it does | CI |
 | --- | --- | --- |
-| [pipeloom](https://github.com/emanuel-luis/pipeloom) | In design. Declarative, engine-agnostic data pipelines in YAML, rendered to Databricks Jobs or Airflow. [Docs](https://emanuel-luis.github.io/pipeloom/), [PyPI](https://pypi.org/project/pipeloom/) (0.0.2 reserves the name). | [![CI](https://github.com/emanuel-luis/pipeloom/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/pipeloom/actions/workflows/ci.yml) |
+| [pipeloom](https://github.com/emanuel-luis/pipeloom) | Engine-agnostic data pipelines: Python `@model` functions and a YAML project compile into one plan that runs on pandas, polars or PySpark, locally, as a Databricks job or as an Airflow DAG. Stable since 1.0. [Docs](https://emanuel-luis.github.io/pipeloom/), [PyPI](https://pypi.org/project/pipeloom/). | [![CI](https://github.com/emanuel-luis/pipeloom/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/emanuel-luis/pipeloom/actions/workflows/ci.yml) |
 
 ## License
 
